@@ -1,0 +1,49 @@
+.container{
+  padding: 5px;
+  margin: 5px;
+}
+.main{
+  word-wrap: break-word;
+}
+.main > .main-config-name{
+  font-weight: bold;
+}
+.main-config-remark{
+  font-weight: normal;
+  opacity:0.5;
+}
+.details{
+  font-weight: 0.8rem;
+  opacity:0.8;
+}
+.value > input{
+  width:30vW;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+}
+.search{
+  border: 1px solid lightgrey;
+  padding: 5px 5px;
+  margin-bottom:10px;
+}
+.search >input {
+  width: 80%;
+  border: none;
+}
+.search > div {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin-left:5px;
+  padding: 0px 5px;
+  width: 18%;
+  text-align:center;
+}
+
+ .tab-menu {
+   border-bottom: 1px solid lightgrey;
+ }
+ .tab-menu > div {
+display: inline-block;
+ }
